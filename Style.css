@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+}
+body{
+    font-family: "Comic Neue",cursive;
+}
+header{
+
+    background-color: rgb(7, 7, 63);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.651)
+}
+header img{
+    width: 50px;
+    margin-right: 10px;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.233), rgba(0,0,0,0.432)),url('../img/tugu.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-title{
+    color: white;
+    letter-spacing: 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner-title h1{
+    font-size: 60px;
+}
+.banner-title h2{
+    font-size: 40px;
+}
+nav{
+    background-color: rgb(7, 7, 63);
+    padding: 20px 0px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+    gap: 10px;
+    
+}
+.nav-menu li a{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+.nav-menu li a:hover{
+    background-color: white;
+    color: rgb(7, 7, 63);
+}
+a.active{
+    background-color: white;
+    color: rgb(7, 7, 63)!important;
+}
+footer{
+    background-color: rgb(7, 7, 63);
+    padding: 20px 0px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px 0px 0px 0px ;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.title{
+    margin-top: 20px;
+    text-transform:uppercase ;
+    letter-spacing: 3px;
+    color: rgb(7, 7, 63);
+}
+.hr-title{
+    border: 3px solid rgb(7, 7, 63);
+    border-radius: 3px;
+    width: 200px;
+    margin: 10px 0px 20px 0px;
+}
+.paragraf p{
+    margin: 15px 0px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 50px;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card-awal{
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.677);
+    width: 170px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(7, 7, 63);
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
